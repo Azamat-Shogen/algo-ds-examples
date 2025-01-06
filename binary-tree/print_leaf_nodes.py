@@ -30,6 +30,15 @@ def build_tree():
     root.right.right = BinaryTreeNode(7)
     return root
 
+
 # Test the function
 root = build_tree()
-print_leaf_nodes(root)
+
+if __name__ == '__main__':
+    print_leaf_nodes(root)
+
+#     1
+#    / \
+#   2   3
+#  / \ / \
+# 4  5 6  7
